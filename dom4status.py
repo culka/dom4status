@@ -99,7 +99,10 @@ def query(address, port):
                     continue # Independents, we don't care about them
                 ns = NationStatus()
                 ns.number = i - PACKET_NATION_INFO_START
-                ns.name = dom4nations.nations[ns.number]
+                try:
+                    ns.name = dom4nations.nations[ns.number]
+                except:
+                    ns.name = "Nation " + str(ns.number)
                 ns.statusnum = dataArray[i]
                 ns.status = status[dataArray[i]]
                 ns.submitted = dataArray[i + PACKET_NUM_NATIONS]
