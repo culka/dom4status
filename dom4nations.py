@@ -3,7 +3,7 @@
 
 # Taken from the modding manual
 nations = {
-    5: "Arcoscephale", # EA
+    5: "Arcoscephale",  # EA
     6: "Ermor",
     7: "Ulm",
     8: "Marverni",
@@ -32,7 +32,8 @@ nations = {
     84: "R'lyeh",
     85: "Pelagia",
     86: "Oceania",
-    33: "Arcoscephale", # MA
+    95: "Therodos",
+    33: "Arcoscephale",  # MA
     34: "Ermor",
     35: "Sceleria",
     36: "Pythium",
@@ -61,7 +62,8 @@ nations = {
     90: "Oceania",
     57: "Nazca",
     58: "Xibalba",
-    60: "Arcoscephale", # LA
+    96: "Ys",
+    60: "Arcoscephale",  # LA
     61: "Pythium",
     62: "Lemuria",
     63: "Man",
